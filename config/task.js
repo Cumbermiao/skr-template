@@ -1,4 +1,6 @@
 const {resolve} = require('path');
-module.exports = [
-  resolve(__dirname,'./babel.js')
-]
+const babelJs = require('./babel');
+
+module.exports = {
+  babelJs
+}
